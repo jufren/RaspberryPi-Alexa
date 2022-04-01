@@ -1,0 +1,1 @@
+scp * pi@10.0.0.1:/home/pi/Desktop/CustomAlexa/dotnet/

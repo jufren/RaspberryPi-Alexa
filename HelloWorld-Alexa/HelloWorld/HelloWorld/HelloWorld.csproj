@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.Device.Gpio" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Alexa.NET">
+      <HintPath>..\..\..\alexa-skills-dotnet-NoNewtonsoft\alexa-skills-dotnet-NoNewtonsoft\Alexa.NET\bin\Release\net5.0\Alexa.NET.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
